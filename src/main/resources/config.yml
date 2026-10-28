@@ -1,0 +1,44 @@
+messages:
+  prefix: "&8[&6Toplista&8] &r"
+
+top-limit: 10
+
+gui:
+  main:
+    size: 27
+    combat:
+      slot: 11
+      material: NETHERITE_SWORD
+    currency:
+      slot: 15
+      material: GOLD_INGOT
+  combat:
+    size: 27
+    kills:
+      slot: 10
+      material: DIAMOND_SWORD
+    deaths:
+      slot: 12
+      material: SKELETON_SKULL
+    streak:
+      slot: 14
+      material: BLAZE_POWDER
+    kd:
+      slot: 16
+      material: COMPARATOR
+    back:
+      slot: 22
+      material: ARROW
+  currency:
+    size: 27
+    money:
+      slot: 13
+      material: EMERALD
+    back:
+      slot: 22
+      material: ARROW
+  result:
+    size: 54
+    back-slot: 49
+    back-material: ARROW
+    loading-material: CLOCK
