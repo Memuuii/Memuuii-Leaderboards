@@ -1,0 +1,57 @@
+prefix: "&6&lLeaderboards &8» &f"
+
+command:
+  players-only: "{prefix}&cOnly players can use this command."
+  no-permission: "{prefix}&cYou do not have permission to do this."
+  reloaded: "{prefix}&aLeaderboards configuration and language files reloaded."
+  usage: "{prefix}Usage: &e/toplista &7or &e/toplista reload"
+
+error:
+  stats-unavailable: "{prefix}&cThe stats service is currently unavailable."
+  economy-unavailable: "{prefix}&cThe economy service is currently unavailable."
+  load-failed: "{prefix}&cFailed to load the leaderboard."
+
+gui:
+  main:
+    title: "&8Leaderboards"
+    combat:
+      name: "&c&lCombat"
+      lore: "&7Kills, deaths, streak and K/D"
+    currency:
+      name: "&6&lCurrency"
+      lore: "&7Money and future currencies"
+  combat:
+    title: "&8Leaderboards • Combat"
+    kills:
+      name: "&a&lKills"
+      lore: "&7Most kills"
+    deaths:
+      name: "&c&lDeaths"
+      lore: "&7Most deaths"
+    streak:
+      name: "&e&lStreak"
+      lore: "&7Highest current kill streak"
+    kd:
+      name: "&b&lK/D"
+      lore: "&7Best kill/death ratio"
+  currency:
+    title: "&8Leaderboards • Currency"
+    money:
+      name: "&6&lMoney"
+      lore: "&7Highest balance"
+  result:
+    kills-title: "&8Leaderboards • Kills"
+    deaths-title: "&8Leaderboards • Deaths"
+    streak-title: "&8Leaderboards • Streak"
+    kd-title: "&8Leaderboards • K/D"
+    money-title: "&8Leaderboards • Money"
+    loading: "&eLoading..."
+    empty: "&7There is no data to display yet."
+    entry-name: "&6#{position} &f{name}"
+    kills-value: "&7Kills: &a{value}"
+    deaths-value: "&7Deaths: &c{value}"
+    streak-value: "&7Streak: &e{value}"
+    kd-value: "&7K/D: &b{value}"
+    money-value: "&7Money: &6${value}"
+  back:
+    name: "&cBack"
