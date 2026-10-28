@@ -1,0 +1,15 @@
+name: MemuuiiLeaderboards
+version: '${project.version}'
+main: hu.memuuii.leaderboards.MemuuiiLeaderboards
+api-version: '1.21'
+author: Memuuii
+description: Central GUI leaderboards for Memuuii servers.
+depend: [MemuuiiCore]
+softdepend: [MemuuiiStats, MemuuiiEconomy]
+commands:
+  toplista:
+    description: Open the central leaderboards GUI
+    usage: /toplista [reload]
+permissions:
+  memuuii.leaderboards.admin:
+    default: op
