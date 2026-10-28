@@ -1,0 +1,57 @@
+prefix: "&6&lToplista &8» &f"
+
+command:
+  players-only: "{prefix}&cEzt a parancsot csak játékos használhatja."
+  no-permission: "{prefix}&cNincs jogosultságod ehhez."
+  reloaded: "{prefix}&aA Toplista konfigurációja és nyelvi fájljai újratöltve."
+  usage: "{prefix}Használat: &e/toplista &7vagy &e/toplista reload"
+
+error:
+  stats-unavailable: "{prefix}&cA statisztika szolgáltatás jelenleg nem érhető el."
+  economy-unavailable: "{prefix}&cA gazdaság szolgáltatás jelenleg nem érhető el."
+  load-failed: "{prefix}&cNem sikerült betölteni a toplistát."
+
+gui:
+  main:
+    title: "&8Toplista"
+    combat:
+      name: "&c&lCombat"
+      lore: "&7Ölések, halálok, streak és K/D"
+    currency:
+      name: "&6&lValuta"
+      lore: "&7Pénz és későbbi valuták"
+  combat:
+    title: "&8Toplista • Combat"
+    kills:
+      name: "&a&lÖlések"
+      lore: "&7Legtöbb ölés"
+    deaths:
+      name: "&c&lHalálok"
+      lore: "&7Legtöbb halál"
+    streak:
+      name: "&e&lStreak"
+      lore: "&7Legnagyobb aktuális kill streak"
+    kd:
+      name: "&b&lK/D"
+      lore: "&7Legjobb kill/death arány"
+  currency:
+    title: "&8Toplista • Valuta"
+    money:
+      name: "&6&lPénz"
+      lore: "&7Legnagyobb egyenleg"
+  result:
+    kills-title: "&8Toplista • Ölések"
+    deaths-title: "&8Toplista • Halálok"
+    streak-title: "&8Toplista • Streak"
+    kd-title: "&8Toplista • K/D"
+    money-title: "&8Toplista • Pénz"
+    loading: "&eBetöltés..."
+    empty: "&7Még nincs megjeleníthető adat."
+    entry-name: "&6#{position} &f{name}"
+    kills-value: "&7Ölések: &a{value}"
+    deaths-value: "&7Halálok: &c{value}"
+    streak-value: "&7Streak: &e{value}"
+    kd-value: "&7K/D: &b{value}"
+    money-value: "&7Pénz: &6${value}"
+  back:
+    name: "&cVissza"
